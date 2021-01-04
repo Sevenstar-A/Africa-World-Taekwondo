@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/statistics_option"
+        android:icon="@mipmap/list_icon"
+        android:title="Statistics"
+        app:showAsAction="always"
+        />
+
+
+    <item
+            android:id="@+id/notes"
+            android:title="Notes"
+            app:showAsAction="never"
+        />
+
+    <item
+            android:id="@+id/sort"
+            android:title="SortBy"
+            app:showAsAction="never">
+
+            <menu>
+                <item
+                    android:id="@+id/sort_by_name"
+                    android:title="Name"
+                    app:showAsAction="never"
+                    />
+
+                <item
+                    android:id="@+id/sort_by_date"
+                    android:title="Date"
+                    app:showAsAction="never"
+                    />
+            </menu>
+
+
+
+        </item>
+
+
+
+
+        <item
+            android:id="@+id/view"
+            android:title="View"
+
+            >
+
+            <menu>
+                <item
+                    android:id="@+id/view_all"
+                    android:title="All"
+                    app:showAsAction="never"
+                    />
+
+                <item
+                    android:id="@+id/view_active"
+                    android:title="Active"
+                    app:showAsAction="never"
+                    />
+
+                <item
+                    android:id="@+id/view_removed"
+                    android:title="Removed"
+                    app:showAsAction="never"
+                    />
+
+                <item
+                    android:id="@+id/view_payed"
+                    android:title="Payed"
+                    app:showAsAction="never"
+                    />
+
+                <item
+                    android:id="@+id/view_unpayed"
+                    android:title="Unpayed"
+                    app:showAsAction="never"
+                    />
+
+
+
+
+
+            </menu>
+
+        </item>
+
+
+
+
+
+</menu>
